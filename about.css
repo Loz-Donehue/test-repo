@@ -1,0 +1,57 @@
+body {
+  background-color: #a3cc10;
+  margin-left: 10px;
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  display: block;
+  -webkit-animation: images 6s;
+          animation: images 6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+img:hover {
+  -webkit-box-shadow: 2px, 2px, 4px brown;
+          box-shadow: 2px, 2px, 4px brown;
+}
+
+@-webkit-keyframes images {
+  0% {
+    margin-left: 20px;
+  }
+  50% {
+    margin-left: 45%;
+  }
+  100% {
+    margin-right: 0;
+  }
+}
+
+@keyframes images {
+  0% {
+    margin-left: 20px;
+  }
+  50% {
+    margin-left: 45%;
+  }
+  100% {
+    margin-right: 0;
+  }
+}
+
+footer p {
+  bottom: 0;
+  margin-left: 45%;
+  color: purple;
+}
+/*# sourceMappingURL=about.css.map */
